@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Rick and Morty</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Character Input</h1>
+    <label for="characterId">Elije tu personaje</label>
+    <input type="number" id="characterId" name="characterId" min="1" max="826" placeholder="1"/>
+    <button onClick ="getCharacter()">Obtener Informacion</button>
+    <div id="characterInfo"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Rick and Morty</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="populateDropdown()">
+    <h1>Character Input</h1>
+
+    <label for="characterDropdown">Selecciona un personaje:</label>
+    <select id="characterDropdown" name="characterDropdown">
+        <option value="">Personajes...</option>
+    </select>
+
+    <button onClick ="getCharacter()">Obtener Informacion</button>
+    <div id="characterInfo"></div>
+    <script src="./js/script.js"></script>
+</body>
+</html> -->
